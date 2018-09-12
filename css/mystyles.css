@@ -1,0 +1,108 @@
+/* Sophisticated */
+/* Colors:
+#0D1B1E - Body Copy
+#35605A - Main */
+/* Fonts:
+Playfair Display - Main Header
+Ledger - Body */
+
+.sophisticated {
+    color: #0d1b1e;
+    background-color: #fafafa;
+    font-family: 'Ledger', serif;
+}
+
+.sophisticated p {
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}
+
+.sophisticated h2 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.sophisticated a {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #0d1b1e;
+    background-color: #fafafa;
+    border: 1px solid #35605a;
+    border-radius: 2px;
+    font-size: 16px;
+    box-shadow: 1px 1px 5px 0px #0d1b1e;
+}
+
+.sophisticated a:hover {
+    background-color: #35605A;
+    color: #fafafa;
+}
+
+.sophisticated-main-color {
+    color: #35605A;
+}
+
+.sophisticated-title {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 62px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Energetic */
+/* Colors:
+#0c0101 - Body
+#1be7ff - Accent 1
+#ee4035 - Accent 2
+#ed254e - Accent 3
+#f17105 - Accent 4 */
+/* Fonts:
+Monoton - Main Header
+Poiret One - Body */
+
+.energetic {
+    font-family: 'Poiret One', cursive;
+    color: #0c0101;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #1be7ff;
+    background-image: linear-gradient(164deg, #1be7ff, #ffee00, #ed254e);
+}
+
+.overlay {
+    background-color: rgba(255,255,255,0.4);
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ffee00;
+}
+
+.energetic-title {
+    font-family: 'Monoton', cursive;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+/* Relaxed */
+
+/* Corporate */
+
+/* Fun */
+
+
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Pontano Sans', sans-serif;
+font-family: 'Ledger', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Molle', cursive; */
