@@ -23,6 +23,12 @@ Ledger - Body */
     padding: 0;
 }
 
+.sophisticated hr {
+    border: 0;
+    height: 1px;
+    background-color: #35605A;
+}
+
 .sophisticated a {
     font-family: 'Playfair Display', serif;
     letter-spacing: 0.05em;
@@ -73,21 +79,65 @@ Poiret One - Body */
     background-image: linear-gradient(164deg, #1be7ff, #ffee00, #ed254e);
 }
 
-.overlay {
-    background-color: rgba(255,255,255,0.4);
+.energetic-overlay {
+    /* background-color: rgba(255, 238, 0, 0.4); */
     padding: 10px;
     border-radius: 15px;
-    border: 1px solid #ffee00;
+    border: 2px solid #1be7ff;
+    background-color: white;
 }
 
 .energetic-title {
     font-family: 'Monoton', cursive;
-    font-size: 72px;
+    font-size: 96px;
+    font-weight: normal;
     text-transform: uppercase;
+    text-shadow: #f17105 2px 2px, #f17105 -2px -2px, #1be7ff -5px -5px, #ffee00 5px 5px;
+    line-height: 1.2;
     color: #fff;
     padding: 0;
     margin: 0;
+}
 
+.energetic h2 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.energetic span {
+    color: #ed254e;
+}
+
+.energetic p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 0.075em;
+}
+
+.energetic hr {
+    border: 0;
+    height: 1px;
+    background-color: #f17105;
+    background-image: linear-gradient(to right, #1be7ff, #ed254e, #ffee00, #ed254e, #1be7ff);
+}
+
+.energetic a {
+    background-color: transparent;
+    color: #f17105;
+    text-shadow: #1be7ff 1px 1px;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 15px;
+}
+
+.energetic a:hover {
+    border-top: 2px solid #1be7ff;
+    border-bottom: 2px solid #1be7ff;
 
 }
 
