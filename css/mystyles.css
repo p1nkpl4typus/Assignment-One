@@ -80,7 +80,6 @@ Poiret One - Body */
 }
 
 .energetic-overlay {
-    /* background-color: rgba(255, 238, 0, 0.4); */
     padding: 10px;
     border-radius: 15px;
     border: 2px solid #1be7ff;
@@ -138,11 +137,58 @@ Poiret One - Body */
 .energetic a:hover {
     border-top: 2px solid #1be7ff;
     border-bottom: 2px solid #1be7ff;
+}
 
+/* Relaxed */
+/* Colors:
+#6b736e - Body
+#497357 - Links
+#e4f5ea - Background
+#99f2b7 - Accent 1
+#79bf90 - Accent 2 */
+/* Fonts:
+Molle - Main Header
+Pontano Sans - Body */
+
+.relaxed {
+    color: #6b736e;
+    background-color: #e4f5ea;
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+/* Photo by Edgar Chaparro on Unsplash */
+.relaxed-overlay {
+    background-color: rgba(255,255,255,0.7);
+    padding: 50px;
+    border-radius: 25px;
+    background-image: url("../imgs/edgar-chaparro-530378-unsplash.jpg");
+}
+
+.relaxed-title {
+    font-family: 'Molle', cursive;
+    font-size: 72px;
+    color: #79bf90;
+    padding: 0;
+    margin: 0;
+}
+
+.relaxed h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.relaxed span {
+    color: #99f2b7;
+    font-weight: bold;
+    text-shadow: 1px 1px #6b736e;
+}
+
+.relaxed p {
+    font-size: 18px;
+    line-height: 1.4;
 }
 
 
-/* Relaxed */
 
 /* Corporate */
 
