@@ -310,84 +310,9 @@ Short Stack - Body Copy */
 
 .fun {
     font-family: 'Short Stack', cursive;
-}
-
-.canvas {
-    position: relative;
-    margin: auto;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: none;
-}
-
-.no-top{
-    margin-top: 0;
-}
-
-.fun-bubble-1 {
-    position: absolute;
-    z-index: 1;
-    display: inline-block;
-    height: 300px;
-    width: 300px;
-    background: #ff4800;
-    border-radius: 50%;
-    padding: 50px;
-    color: #fff;
-    text-align: center;
-    top: 5%;
-}
-
-.fun-bubble-1 h1 {
-    font-weight: 400;
-    font-size: 96px;
-    font-family: 'Fredericka the Great', cursive;
-    margin: 0;
-    padding: 0;
-}
-
-.fun-bubble-2 {
-    position: absolute;
-    z-index: 2;
-    top: 75%;
-    left: 25%;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    background: #0081d9;
-    border-radius: 100%;
-}
-
-.fun-bubble-3 {
-    position: absolute;
-    z-index: 1;
-    top: 95%;
-    left: 55%;
-    display: inline-block;
-    height: 500px;
-    width: 500px;
-    background: #fff44c;
-    border-radius: 100%;
-}
-
-.fun-bubble-4 {
-    position: absolute;
-    z-index: 4;
-    display: inline-block;
-    height: 350px;
-    width: 350px;
-    background: #751cec;
-    left: 30%;
-    top: 100%;
-    padding-top: 10%;
-    border-radius: 100%;
-}
-
-.fun-bubble-4 a {
-    display: block;
     margin: 0 auto;
-    width: 50%;
-    background: none;
-}
+    width: 75%;
+    max-width: 1200px;
+    margin-top: 5%;
+
 
