@@ -243,6 +243,7 @@ Open Sans - Body Copy */
     z-index: 1;
 }
 
+
 .corporate-main {
     position: relative;
     background: #EDE9D0;
@@ -275,26 +276,43 @@ Open Sans - Body Copy */
     background-color: #79745c;
 }
 
-.corporate-nav a {
+.corporate-nav ul {
+    padding: 0;
+}
+
+.corporate-nav li {
+    display: inline-block;
+    position: relative;
+    list-style: none;
     border: 1px solid #79745C;
     background: #EDE9D0;
-    color: #79745C;
     text-transform: uppercase;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    padding: 10px 0;
     border-radius: 10px 10px 0px 0px;
-    text-decoration: none;
     height: 40px;
     box-shadow: 0px 2px 15px 0px #272727;
     font-weight: bold;
 }
 
-.corporate a:active, .corporate a:hover {
-    background: #fffbe2;
-    border-bottom: none;
-    padding-bottom: 10px;
-    
+.corporate-nav a {
+    position: relative;
+    bottom: 40%;
+    color: #79745C;
+    text-decoration: none;
+    background: none;
 }
+
+.corporate-nav li:active, .corporate-nav li:hover {
+    background: #fffbe2;
+    top: -5px;
+}
+
+.corporate-main p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* responsive nav */
 
 @media (max-width: 700px) {
     .corporate-nav {
@@ -305,19 +323,25 @@ Open Sans - Body Copy */
         
     }
 
-    .corporate-nav a {
-        padding-bottom: 10px;
+    .corporate-nav li {
         display: block;
+        width: 100%;
         transition: 0.4s;
+        position: static;
+        margin-bottom: 0;
     }
 
-    .corporate-nav a:hover, .corporate-nav a:visited {
+    .corporate-nav li:last-of-type {
+       margin-bottom: -5px;
+    }
+
+    .corporate-nav li:hover, .corporate-nav li:visited {
         margin-bottom: 10px;
         transition: 0.4s;
     }
 
     .corporate-main {
-        top: -3px;
+        top: -10px;
     }
 
 }
@@ -341,5 +365,12 @@ Short Stack - Body Copy */
     width: 75%;
     max-width: 1200px;
     margin-top: 5%;
+}
+
+.fun a {
+    
+}
+
+
 
 
