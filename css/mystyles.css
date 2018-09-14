@@ -358,10 +358,10 @@ fff44c - Yellow
 Fredericka the Great - Main Header
 Short Stack - Body Copy */
 
-
 .fun {
     font-family: 'Short Stack', cursive;
     color: #222;
+    background: #222;
 }
 
 .fun h1, .fun h2 {
@@ -373,45 +373,60 @@ Short Stack - Body Copy */
 
 .fun h1 {
     font-size: 96px;
-    color: #ff4800;
 }
 
 .fun h2 {
     font-size: 30px;
-    color: #0081d9;
+    padding-bottom: 20px;
+}
+
+.fun hr {
+    border: 0;
+    height: 2px;
+    background: #fff44c;
+    box-shadow: 0px 2px 0 0 #fff44c,
+                0px 4px 0 0 #ff4800,
+                0px 6px 0 0 #0081d9,
+                0px 8px 0 0 #751cec;
+}
+
+.fun p {
+    padding: 20px 0;
+    line-height: 1.6;
+    font-size: 18px;
 }
 
 .fun a {
     position: relative;
     height: 50px;
     text-align: center;
-    padding-top: 15px;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    border: 4px solid #fff44c;
     border-radius: 15px;
     text-decoration: none;
     font-size: 18px;
-    color: white;
-    background-color: rgb(117, 28, 236, 0.8);
-    box-shadow: 0 10px 2px 0 #751cec, 
-                inset 3px 5px 20px 0 #fff;
+    color: #222;
+    background-color: white;
+    box-shadow: 0px 2px 0 0 #fff44c,
+                0px 4px 0 0 #ff4800,
+                0px 6px 0 0 #0081d9,
+                0px 8px 0 0 #751cec;
 }
 
 .fun a:hover {
     top: 5px;
-    box-shadow: 0 5px 3px 0 #751cec, 
-                inset 3px 5px 10px 0 #fff,
-                inset -3px -5px 10px 0 #751cec;
+    box-shadow: none;
 }
 
 
 .fun-border {
     border: 4px solid #fff44c;
-    outline: 4px dotted #0081d9;
-    outline-offset: 4px;
-    border-radius: 20px;
-    box-shadow: 0 1px 5px 0 #ff4800;
+    border-radius: 50px;
+    box-shadow: 0px 5px 0 0 #fff44c,
+                0px 10px 0 0 #ff4800,
+                0px 15px 0 0 #0081d9,
+                0px 20px 0 0 #751cec;
+
     padding: 40px;
+    background: #fff;
 }
-
-
-
