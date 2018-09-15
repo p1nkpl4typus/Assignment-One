@@ -3,11 +3,11 @@
 ***
 Create 5 pages. Each page is going to have a header, hr, and paragraph text. Each page is going to have a different theme. You need to choose a font pairing from google fonts, and a color pairing that matches the theme. The themes are:
 
-* [Sophisticated](/sophisticated/ "Sophisticated")
-* [Energetic](/energetic/ "Energetic")
-* [Relaxed](/relaxed/ "Relaxed")
-* [Corporate](/corporate/ "Corporate")
-* [Fun](/fun/ "Fun")
+* [Sophisticated](https://assignment-one-dyjjspqqnt.now.sh/sophisticated "Sophisticated")
+* [Energetic](https://assignment-one-dyjjspqqnt.now.sh/energetic "Energetic")
+* [Relaxed](https://assignment-one-dyjjspqqnt.now.sh/relaxed "Relaxed")
+* [Corporate](https://assignment-one-dyjjspqqnt.now.sh/corporate "Corporate")
+* [Fun](https://assignment-one-dyjjspqqnt.now.sh/fun "Fun")
 
 You must specify what strategy you are using for color. Here are the options:
 
