@@ -22,6 +22,41 @@ a {
 }
 
 /* *************************************** */
+/* Index */
+/* *************************************** */
+
+.home {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-overlay {
+    box-shadow: 3px 3px 15px 0 #222;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.home-a-reset {
+    padding: 0;
+}
+
+.home hr {
+    background: #222;
+}
+
+/* Index Shared Styles */
+.home a,
+.home-a-reset {
+    font-weight: bold;
+    background: none;
+    color: #151570;
+}
+
+.home a:hover,
+.home-a-reset:hover {
+    text-decoration: underline;
+}
+
+/* *************************************** */
 /* Sophisticated */
 /* *************************************** */
 /* 
