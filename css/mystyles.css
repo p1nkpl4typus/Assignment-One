@@ -1,49 +1,54 @@
+/* *************************************** */
+/* Global Styles */
+/* *************************************** */
+
+hr {
+    border: 0;
+    height: 1px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h1, h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* *************************************** */
 /* Sophisticated */
-/* Colors:
+/* *************************************** */
+/* 
+Colors:
 #0D1B1E - Body Copy
-#35605A - Main */
-/* Fonts:
+#35605A - Main
+
+Fonts:
 Playfair Display - Main Header
-Ledger - Body */
+Ledger - Body
+*/
 
 .sophisticated {
-    color: #0d1b1e;
-    background-color: #fafafa;
     font-family: 'Ledger', serif;
 }
 
-.sophisticated p {
-    line-height: 1.6;
-    letter-spacing: 0.05em;
-}
-
-.sophisticated h2 {
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-}
-
-.sophisticated hr {
-    border: 0;
-    height: 1px;
-    background-color: #35605A;
-}
-
 .sophisticated a {
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 0.05em;
-    text-decoration: none;
     font-weight: bold;
     color: #0d1b1e;
-    background-color: #fafafa;
     border: 1px solid #35605a;
     border-radius: 2px;
     font-size: 16px;
     box-shadow: 1px 1px 2px 0px #0d1b1e;
+    margin-right: 10px;
 }
 
 .sophisticated a:hover {
-    background-color: #35605A;
     color: #fafafa;
 }
 
@@ -51,86 +56,97 @@ Ledger - Body */
     color: #35605A;
 }
 
-.sophisticated-title {
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+.sophisticated h1 {
     font-size: 62px;
-    margin: 0;
-    padding: 0;
 }
 
+/* Sophisticated Shared Styles */
+.sophisticated,
+.sophisticated a {
+    background-color: #fafafa;
+    color: #0d1b1e;
+}
+
+.sophisticated hr,
+.sophisticated a:hover {
+    background-color: #35605A;
+}
+
+.sophisticated h1,
+.sophisticated h2 {
+    text-transform: uppercase;
+}
+
+.sophisticated h1,
+.sophisticated a {
+    font-family: 'Playfair Display', serif;
+}
+
+.sophisticated h1,
+.sophisticated p,
+.sophisticated a {
+    letter-spacing: 0.05em;
+}
+
+/* *************************************** */
 /* Energetic */
-/* Colors:
+/* *************************************** */
+/* 
+Colors:
 #0c0101 - Body
 #1be7ff - Accent 1
 #ee4035 - Accent 2
 #ed254e - Accent 3
-#f17105 - Accent 4 */
-/* Fonts:
+#f17105 - Accent 4
+
+Fonts:
 Monoton - Main Header
-Poiret One - Body */
+Poiret One - Body 
+*/
 
 .energetic {
     font-family: 'Poiret One', cursive;
     color: #0c0101;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-color: #1be7ff;
     background-image: linear-gradient(164deg, #1be7ff, #ffee00, #ed254e);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 .energetic-overlay {
     padding: 10px;
     border-radius: 15px;
     border: 2px solid #1be7ff;
-    background-color: white;
+    background-color: #fff;
 }
 
-.energetic-title {
+.energetic h1 {
     font-family: 'Monoton', cursive;
-    font-size: 96px;
-    font-weight: normal;
-    text-transform: uppercase;
-    text-shadow: #f17105 2px 2px, #f17105 -2px -2px, #1be7ff -5px -5px, #ffee00 5px 5px;
-    line-height: 1.2;
     color: #fff;
-    padding: 0;
-    margin: 0;
-}
-
-.energetic h2 {
-    margin: 0;
-    padding: 0;
-    text-transform: uppercase;
+    font-size: 96px;
+    text-shadow: #f17105 2px 2px, #f17105 -2px -2px, #1be7ff -5px -5px, #ffee00 5px 5px;
 }
 
 .energetic span {
     color: #ed254e;
 }
 
-.energetic p {
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.3;
-    letter-spacing: 0.075em;
-}
-
 .energetic hr {
-    border: 0;
-    height: 1px;
     background-color: #f17105;
     background-image: linear-gradient(to right, #1be7ff, #ed254e, #ffee00, #ed254e, #1be7ff);
 }
 
+.energetic p {
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 0.075em;
+}
+
 .energetic a {
-    background-color: transparent;
+    background: none;
     color: #f17105;
     text-shadow: #1be7ff 1px 1px;
-    font-weight: bolder;
     font-size: 22px;
-    text-decoration: none;
-    text-transform: uppercase;
     margin: 0px;
     padding: 15px;
     border-radius: 10px;
@@ -144,19 +160,37 @@ Poiret One - Body */
     box-shadow: inset 0 0 0 2px #ffee00;
 }
 
+/* Energetic Shared Styles */
+.energetic h2,
+.energetic a,
+.energetic p {
+    font-weight: bolder;
+}
+
+.energetic h1,
+.energetic h2,
+.energetic a {
+    text-transform: uppercase;
+}
+
+/* *************************************** */
 /* Relaxed */
-/* Colors:
-#6b736e - Body
+/* *************************************** */
+/* 
+Colors:
+#505753 - Body
 #497357 - Links
 #e4f5ea - Background
 #99f2b7 - Accent 1
-#79bf90 - Accent 2 */
-/* Fonts:
+#79bf90 - Accent 2
+
+Fonts:
 Dancing Script - Main Header
-Pontano Sans - Body */
+Pontano Sans - Body 
+*/
 
 .relaxed {
-    color: #6b736e;
+    color: #505753;
     background-color: #fff;
     font-family: 'Pontano Sans', sans-serif;
 }
@@ -168,57 +202,51 @@ Pontano Sans - Body */
     border-radius: 25px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(-45deg, rgba(228,245,234,0.9),rgba(255,255,2554,0.9)),url("../imgs/edgar-chaparro-530378-unsplash.jpg");
-    box-shadow: 2px 2px 10px -5px #79bf90;
+    background-image: linear-gradient(-45deg, rgba(228,245,234,0.9), rgba(255,255,2554,0.9)),
+                      url("../imgs/edgar-chaparro-530378-unsplash.jpg");   
 }
 
-.relaxed-title {
+.relaxed h1 {
     font-family: 'Dancing Script', cursive;
-    font-weight: 700; 
     font-size: 72px;
-    color: #79bf90;
-    padding: 0;
-    margin: 0;
-}
-
-.relaxed h2 {
-    padding: 0;
-    margin: 0;
 }
 
 .relaxed hr {
-    border: 0;
-    height: 1px;
     background-color: #79bf90;
-
 }
 
+.relaxed p {
+    font-size: 18px;
+}
+
+.relaxed a {
+    background: rgba(255,255,255,0.7);
+    font-size: 20px;
+    color: #497357;
+    margin: 25px 5px 0 5px;
+    border-radius: 5px;
+}
+
+.relaxed a:hover {
+    background: rgba(73, 115, 87, 0.4);
+    color: #fff;
+}
+
+/* Energetic Shared Styles */
+.relaxed-overlay,
+.relaxed a {
+    box-shadow: 2px 2px 10px -5px #79bf90;
+}
+
+.relaxed h1,
 .relaxed span {
     color: #79bf90;
     font-weight: bold;
 }
 
-.relaxed p {
-    font-size: 18px;
-    line-height: 1.4;
-}
-
-.relaxed a {
-    background: rgba(255,255,255,0.5);
-    font-size: 20px;
-    color: #497357;
-    margin: 25px 5px 0 5px;
-    text-decoration: none;
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px -5px #79bf90;
-}
-
-.relaxed a:hover {
-    color: #99f2b7;
-    font-weight: bold;
-}
-
+/* *************************************** */
 /* Corporate */
+/* *************************************** */
 /* Colors:
 #704E2E - Background
 #EDE9D0 - Alt Background
@@ -236,44 +264,10 @@ Open Sans - Body Copy */
 }
 
 .corporate-nav {
-    background: transparent;
-    position: relative;
+    background: none;
     top: 15px;
     height: 50px;
     z-index: 1;
-}
-
-
-.corporate-main {
-    position: relative;
-    background: #EDE9D0;
-    border: 1px solid #79745c;
-    padding: 15px 15px 0px 15px;
-    border-radius: 10px 10px 0px 0px;
-    z-index: 2;
-    box-shadow: 0px 2px 15px 0px #272727;
-}
-
-.corporate h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 46px;
-    padding-bottom: 15px;
-    margin: 0;
-}
-
-.corporate h2 {
-    padding: 0;
-    margin: 0;
-}
-
-.corporate span {
-    color: #d4aa7d;
-}
-
-.corporate hr {
-    border: 0;
-    height: 1px;
-    background-color: #79745c;
 }
 
 .corporate-nav ul {
@@ -282,23 +276,15 @@ Open Sans - Body Copy */
 
 .corporate-nav li {
     display: inline-block;
-    position: relative;
     list-style: none;
-    border: 1px solid #79745C;
-    background: #EDE9D0;
     text-transform: uppercase;
     padding: 10px 0;
-    border-radius: 10px 10px 0px 0px;
     height: 40px;
-    box-shadow: 0px 2px 15px 0px #272727;
-    font-weight: bold;
 }
 
 .corporate-nav a {
-    position: relative;
     bottom: 40%;
     color: #79745C;
-    text-decoration: none;
     background: none;
 }
 
@@ -307,32 +293,68 @@ Open Sans - Body Copy */
     top: -5px;
 }
 
-.corporate-main p {
-    line-height: 1.6;
+.corporate-main {
+    padding: 15px 15px 0px 15px;
+    z-index: 2;   
+}
+
+.corporate h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    padding-bottom: 15px;
+}
+
+.corporate p {
     font-size: 18px;
 }
 
-/* responsive nav */
+.corporate span {
+    color: #d4aa7d;
+}
 
+.corporate hr {
+    background-color: #79745c;
+}
+
+/* Corporate Shared Styles */
+.corporate-main,
+.corporate-nav li {
+    box-shadow: 0px 2px 15px 0px #272727;
+    border: 1px solid #79745C;
+    border-radius: 10px 10px 0px 0px;
+    background: #EDE9D0;
+}
+
+.corporate-main,
+.corporate-nav,
+.corporate-nav a,
+.corporate-nav li {
+    position: relative;
+}
+
+.corporate h1,
+.corporate h2,
+.corporate-nav li {
+    font-weight: bold;
+}
+
+/* Corporate Media Queries (Responsive Nav) */
 @media (max-width: 700px) {
     .corporate-nav {
         height: 100%;
         background: #EDE9D0;
-        border-radius: 10px 10px 0px 0px;
-        position: static;
-        
+        border-radius: 10px 10px 0px 0px;        
     }
 
     .corporate-nav li {
         display: block;
         width: 100%;
         transition: 0.4s;
-        position: static;
         margin-bottom: 0;
     }
 
     .corporate-nav li:last-of-type {
-       margin-bottom: -5px;
+        margin-bottom: -5px;
     }
 
     .corporate-nav li:hover, .corporate-nav li:visited {
@@ -344,18 +366,24 @@ Open Sans - Body Copy */
         top: -10px;
     }
 
+    .corporate-nav,
+    .corporate-nav li {
+        position: static;
+    }
 }
 
-
-
+/* *************************************** */
 /* Fun */
-/* Colors: 
+/* *************************************** */
+/* 
+Colors: 
 #FD4BCC - Pink
 #7ee3ff - Blue
-/* Fonts:
-Permanent Marker - Main Header
-Patrick Hand - Body Copy */
 
+Fonts:
+Permanent Marker - Main Header
+Patrick Hand - Body Copy
+*/
 
 .fun {
     background: #7ee3ff;
@@ -377,37 +405,23 @@ Patrick Hand - Body Copy */
 .fun-wrap {
     padding: 20px;
     border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #fd4bcc;
+    box-shadow: 1px 1px 5px 0 #444;
 }
 
 .fun h1 {
-    font-family: 'Permanent Marker', cursive;
-    margin: 0;
     font-size: 96px;
     font-weight: normal;
 }
 
-.fun h1,
-.fun h2 {
-    padding: 0;
-    margin-top: -20px;
-}
-
-.fun hr {
-    border: 0;
-    height: 1px;
-    background-color: #fd4bcc;
-}
-
 .fun p {
     font-size: 20px;
-    line-height: 1.6;
 }
 
 .fun a {
+    background: none;
     border-radius: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
     transition: 0.2s;
 }
 
@@ -417,15 +431,27 @@ Patrick Hand - Body Copy */
     transition: 0.2s;
 }
 
+/* Fun Shared Styles */
+.fun a:hover,
+.fun hr {
+    background: #fd4bcc;
+}
+
 .fun span,
 .fun a,
 .fun h1 {
+    font-family: 'Permanent Marker', cursive;
     color: #fd4bcc;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
 }
 
-.fun-wrap,
-.fun a {
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid #fd4bcc;
-    box-shadow: 1px 1px 5px 0 #444;
+.fun h1,
+.fun h2 {
+    margin-top: -20px;
+}
+
+.fun a,
+.fun span {
+    font-size: 25px;
 }
