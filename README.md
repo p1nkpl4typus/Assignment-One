@@ -1,5 +1,6 @@
 # Assignment-One
 ## Font and Color - 10%
+## [Solution](https://assignment-one-dyjjspqqnt.now.sh/ "Solution")
 ***
 Create 5 pages. Each page is going to have a header, hr, and paragraph text. Each page is going to have a different theme. You need to choose a font pairing from google fonts, and a color pairing that matches the theme. The themes are:
 
