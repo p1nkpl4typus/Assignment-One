@@ -1,6 +1,5 @@
 # Assignment-One
 ## Font and Color - 10%
-## [Solution](https://assignment-one-dyjjspqqnt.now.sh/ "Solution")
 ***
 Create 5 pages. Each page is going to have a header, hr, and paragraph text. Each page is going to have a different theme. You need to choose a font pairing from google fonts, and a color pairing that matches the theme. The themes are:
 
@@ -26,3 +25,5 @@ I will be giving 5 points for each page for a total of 25 points:
 3. Are the fonts properly imported?
 4. Is the font easy to read?
 5. Are you using one of the strategies we went over for color?
+
+## [Solution](https://assignment-one-dyjjspqqnt.now.sh/ "Solution")
